@@ -1,0 +1,194 @@
+{
+ "format": 1,
+ "built": "2026-10-27T22:14:02Z",
+ "lexemes": 138200,
+ "forms": 1439969,
+ "skipped": 0,
+ "merged": 8565,
+ "letters": {
+  "а": {
+   "file": "0430.txt.gz",
+   "lexemes": 4140,
+   "forms": 36141,
+   "bytes": 124054
+  },
+  "б": {
+   "file": "0431.txt.gz",
+   "lexemes": 5173,
+   "forms": 48853,
+   "bytes": 162503
+  },
+  "в": {
+   "file": "0432.txt.gz",
+   "lexemes": 10745,
+   "forms": 111983,
+   "bytes": 365023
+  },
+  "г": {
+   "file": "0433.txt.gz",
+   "lexemes": 3699,
+   "forms": 34077,
+   "bytes": 115497
+  },
+  "д": {
+   "file": "0434.txt.gz",
+   "lexemes": 5511,
+   "forms": 54520,
+   "bytes": 181675
+  },
+  "е": {
+   "file": "0435.txt.gz",
+   "lexemes": 406,
+   "forms": 3547,
+   "bytes": 12135
+  },
+  "ё": {
+   "file": "0451.txt.gz",
+   "lexemes": 32,
+   "forms": 348,
+   "bytes": 1134
+  },
+  "ж": {
+   "file": "0436.txt.gz",
+   "lexemes": 779,
+   "forms": 7569,
+   "bytes": 25006
+  },
+  "з": {
+   "file": "0437.txt.gz",
+   "lexemes": 7370,
+   "forms": 84718,
+   "bytes": 275448
+  },
+  "и": {
+   "file": "0438.txt.gz",
+   "lexemes": 3560,
+   "forms": 36667,
+   "bytes": 120509
+  },
+  "й": {
+   "file": "0439.txt.gz",
+   "lexemes": 46,
+   "forms": 359,
+   "bytes": 1308
+  },
+  "к": {
+   "file": "043a.txt.gz",
+   "lexemes": 6972,
+   "forms": 65852,
+   "bytes": 221148
+  },
+  "л": {
+   "file": "043b.txt.gz",
+   "lexemes": 2440,
+   "forms": 22996,
+   "bytes": 76568
+  },
+  "м": {
+   "file": "043c.txt.gz",
+   "lexemes": 5057,
+   "forms": 47717,
+   "bytes": 161383
+  },
+  "н": {
+   "file": "043d.txt.gz",
+   "lexemes": 7917,
+   "forms": 83881,
+   "bytes": 276778
+  },
+  "о": {
+   "file": "043e.txt.gz",
+   "lexemes": 11486,
+   "forms": 130700,
+   "bytes": 421701
+  },
+  "п": {
+   "file": "043f.txt.gz",
+   "lexemes": 25729,
+   "forms": 285169,
+   "bytes": 936603
+  },
+  "р": {
+   "file": "0440.txt.gz",
+   "lexemes": 7824,
+   "forms": 85056,
+   "bytes": 280820
+  },
+  "с": {
+   "file": "0441.txt.gz",
+   "lexemes": 12056,
+   "forms": 123594,
+   "bytes": 409920
+  },
+  "т": {
+   "file": "0442.txt.gz",
+   "lexemes": 4205,
+   "forms": 42819,
+   "bytes": 142601
+  },
+  "у": {
+   "file": "0443.txt.gz",
+   "lexemes": 4083,
+   "forms": 47192,
+   "bytes": 151128
+  },
+  "ф": {
+   "file": "0444.txt.gz",
+   "lexemes": 1914,
+   "forms": 17541,
+   "bytes": 59762
+  },
+  "х": {
+   "file": "0445.txt.gz",
+   "lexemes": 1363,
+   "forms": 12581,
+   "bytes": 41915
+  },
+  "ц": {
+   "file": "0446.txt.gz",
+   "lexemes": 684,
+   "forms": 6295,
+   "bytes": 21409
+  },
+  "ч": {
+   "file": "0447.txt.gz",
+   "lexemes": 1246,
+   "forms": 13338,
+   "bytes": 44140
+  },
+  "ш": {
+   "file": "0448.txt.gz",
+   "lexemes": 1528,
+   "forms": 15489,
+   "bytes": 51184
+  },
+  "щ": {
+   "file": "0449.txt.gz",
+   "lexemes": 218,
+   "forms": 2360,
+   "bytes": 7567
+  },
+  "э": {
+   "file": "044d.txt.gz",
+   "lexemes": 1490,
+   "forms": 13522,
+   "bytes": 47209
+  },
+  "ю": {
+   "file": "044e.txt.gz",
+   "lexemes": 172,
+   "forms": 1540,
+   "bytes": 5197
+  },
+  "я": {
+   "file": "044f.txt.gz",
+   "lexemes": 372,
+   "forms": 3545,
+   "bytes": 11517
+  }
+ },
+ "source": "Hunspell ru_RU (A. Lebedev) + seed",
+ "sourceUrl": "https://github.com/wooorm/dictionaries/tree/main/dictionaries/ru",
+ "license": "BSD-style (см. tools/hunspell-ru/LICENSE); seed — CC0 1.0",
+ "attribution": "Словарь Hunspell ru_RU © 1997–2008 Alexander I. Lebedev; изменён: переработан в формат игры."
+}
