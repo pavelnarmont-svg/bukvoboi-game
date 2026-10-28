@@ -1,40 +1,40 @@
 {
  "format": 1,
- "built": "2026-10-27T22:14:02Z",
- "lexemes": 138200,
- "forms": 1439969,
+ "built": "2026-10-28T14:40:27Z",
+ "lexemes": 138297,
+ "forms": 1440854,
  "skipped": 0,
- "merged": 8565,
+ "merged": 8587,
  "letters": {
   "а": {
    "file": "0430.txt.gz",
-   "lexemes": 4140,
-   "forms": 36141,
-   "bytes": 124054
+   "lexemes": 4143,
+   "forms": 36171,
+   "bytes": 124161
   },
   "б": {
    "file": "0431.txt.gz",
-   "lexemes": 5173,
-   "forms": 48853,
-   "bytes": 162503
+   "lexemes": 5179,
+   "forms": 48909,
+   "bytes": 162689
   },
   "в": {
    "file": "0432.txt.gz",
-   "lexemes": 10745,
-   "forms": 111983,
-   "bytes": 365023
+   "lexemes": 10751,
+   "forms": 112043,
+   "bytes": 365203
   },
   "г": {
    "file": "0433.txt.gz",
-   "lexemes": 3699,
-   "forms": 34077,
-   "bytes": 115497
+   "lexemes": 3702,
+   "forms": 34107,
+   "bytes": 115594
   },
   "д": {
    "file": "0434.txt.gz",
-   "lexemes": 5511,
-   "forms": 54520,
-   "bytes": 181675
+   "lexemes": 5513,
+   "forms": 54540,
+   "bytes": 181729
   },
   "е": {
    "file": "0435.txt.gz",
@@ -74,27 +74,27 @@
   },
   "к": {
    "file": "043a.txt.gz",
-   "lexemes": 6972,
-   "forms": 65852,
-   "bytes": 221148
+   "lexemes": 6984,
+   "forms": 65963,
+   "bytes": 221538
   },
   "л": {
    "file": "043b.txt.gz",
-   "lexemes": 2440,
-   "forms": 22996,
-   "bytes": 76568
+   "lexemes": 2446,
+   "forms": 23047,
+   "bytes": 76725
   },
   "м": {
    "file": "043c.txt.gz",
-   "lexemes": 5057,
-   "forms": 47717,
-   "bytes": 161383
+   "lexemes": 5064,
+   "forms": 47786,
+   "bytes": 161617
   },
   "н": {
    "file": "043d.txt.gz",
-   "lexemes": 7917,
-   "forms": 83881,
-   "bytes": 276778
+   "lexemes": 7920,
+   "forms": 83908,
+   "bytes": 276855
   },
   "о": {
    "file": "043e.txt.gz",
@@ -104,27 +104,27 @@
   },
   "п": {
    "file": "043f.txt.gz",
-   "lexemes": 25729,
-   "forms": 285169,
-   "bytes": 936603
+   "lexemes": 25737,
+   "forms": 285240,
+   "bytes": 936807
   },
   "р": {
    "file": "0440.txt.gz",
-   "lexemes": 7824,
-   "forms": 85056,
-   "bytes": 280820
+   "lexemes": 7827,
+   "forms": 85086,
+   "bytes": 280909
   },
   "с": {
    "file": "0441.txt.gz",
-   "lexemes": 12056,
-   "forms": 123594,
-   "bytes": 409920
+   "lexemes": 12071,
+   "forms": 123721,
+   "bytes": 410357
   },
   "т": {
    "file": "0442.txt.gz",
-   "lexemes": 4205,
-   "forms": 42819,
-   "bytes": 142601
+   "lexemes": 4210,
+   "forms": 42860,
+   "bytes": 142754
   },
   "у": {
    "file": "0443.txt.gz",
@@ -134,15 +134,15 @@
   },
   "ф": {
    "file": "0444.txt.gz",
-   "lexemes": 1914,
-   "forms": 17541,
-   "bytes": 59762
+   "lexemes": 1920,
+   "forms": 17601,
+   "bytes": 59945
   },
   "х": {
    "file": "0445.txt.gz",
-   "lexemes": 1363,
-   "forms": 12581,
-   "bytes": 41915
+   "lexemes": 1367,
+   "forms": 12612,
+   "bytes": 42014
   },
   "ц": {
    "file": "0446.txt.gz",
@@ -152,15 +152,15 @@
   },
   "ч": {
    "file": "0447.txt.gz",
-   "lexemes": 1246,
-   "forms": 13338,
-   "bytes": 44140
+   "lexemes": 1249,
+   "forms": 13368,
+   "bytes": 44249
   },
   "ш": {
    "file": "0448.txt.gz",
-   "lexemes": 1528,
-   "forms": 15489,
-   "bytes": 51184
+   "lexemes": 1529,
+   "forms": 15499,
+   "bytes": 51210
   },
   "щ": {
    "file": "0449.txt.gz",
@@ -170,15 +170,15 @@
   },
   "э": {
    "file": "044d.txt.gz",
-   "lexemes": 1490,
-   "forms": 13522,
-   "bytes": 47209
+   "lexemes": 1493,
+   "forms": 13543,
+   "bytes": 47297
   },
   "ю": {
    "file": "044e.txt.gz",
-   "lexemes": 172,
-   "forms": 1540,
-   "bytes": 5197
+   "lexemes": 173,
+   "forms": 1550,
+   "bytes": 5238
   },
   "я": {
    "file": "044f.txt.gz",
@@ -187,7 +187,7 @@
    "bytes": 11517
   }
  },
- "source": "Hunspell ru_RU (A. Lebedev) + seed",
+ "source": "Hunspell ru_RU (A. Lebedev) + seed + modern words",
  "sourceUrl": "https://github.com/wooorm/dictionaries/tree/main/dictionaries/ru",
  "license": "BSD-style (см. tools/hunspell-ru/LICENSE); seed — CC0 1.0",
  "attribution": "Словарь Hunspell ru_RU © 1997–2008 Alexander I. Lebedev; изменён: переработан в формат игры."
