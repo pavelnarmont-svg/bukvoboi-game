@@ -1,9 +1,10 @@
 // Service worker: игра открывается без интернета.
 // Оболочка (страница, скрипт, стили, иконки) кэшируется при установке; файлы словаря — по мере загрузки
 // (кнопка «Скачать словарь для офлайн-игры» в настройках загружает их все сразу).
-const VERSION = '69d488b847';
+const VERSION = '0e31559202';
 const SHELL = `bukvoboy-shell-${VERSION}`;
 const DICT = 'bukvoboy-dict';
+const PHOTOS = 'bukvoboy-photos';
 const SHELL_FILES = ['./', 'index.html', 'app.js', 'app.css', 'manifest.webmanifest',
   'icons/icon-192.png', 'icons/icon-512.png', 'icons/apple-touch-icon.png'];
 
@@ -26,10 +27,11 @@ self.addEventListener('fetch', (event) => {
   const url = new URL(req.url);
   if (url.origin !== self.location.origin) return;
 
-  if (url.pathname.includes('/dict/')) {
-    // словарь: сначала кэш, при промахе — сеть и запись в кэш (файлы меняются только вместе с версией словаря)
+  const isDict = url.pathname.includes('/dict/');
+  if (isDict || url.pathname.includes('/photos/')) {
+    // словарь и изображения «Фотоохоты»: сначала кэш, при промахе — сеть и запись в кэш
     event.respondWith((async () => {
-      const cache = await caches.open(DICT);
+      const cache = await caches.open(isDict ? DICT : PHOTOS);
       const hit = await cache.match(req);
       if (hit) return hit;
       const res = await fetch(req);
