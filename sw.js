@@ -1,7 +1,7 @@
 // Service worker: игра открывается без интернета.
 // Оболочка (страница, скрипт, стили, иконки) кэшируется при установке; файлы словаря — по мере загрузки
 // (кнопка «Скачать словарь для офлайн-игры» в настройках загружает их все сразу).
-const VERSION = 'd11a707b33';
+const VERSION = '74a2e436e2';
 const SHELL = `bukvoboy-shell-${VERSION}`;
 const DICT = 'bukvoboy-dict';
 const SHELL_FILES = ['./', 'index.html', 'app.js', 'app.css', 'manifest.webmanifest',
@@ -39,10 +39,13 @@ self.addEventListener('fetch', (event) => {
     return;
   }
 
-  // оболочка: сначала сеть (чтобы обновления приходили сразу), при отсутствии сети — кэш
+  // оболочка: сначала сеть (чтобы обновления приходили сразу), при отсутствии сети — кэш.
+  // cache: 'no-cache' — сверяемся с сервером, а не берём старую копию из HTTP-кэша браузера
   event.respondWith((async () => {
     try {
-      const res = await fetch(req);
+      const res = req.mode === 'navigate'
+        ? await fetch(req.url, { cache: 'no-cache', credentials: 'same-origin' })
+        : await fetch(req, { cache: 'no-cache' });
       if (res.ok) (await caches.open(SHELL)).put(req, res.clone());
       return res;
     } catch (e) {
