@@ -15,17 +15,19 @@
   <script>
     // тема до загрузки скрипта игры — чтобы не было вспышки другого цвета
     try {
-      var t = (JSON.parse(localStorage.getItem('bukvoboy:v1:prefs') || '{}') || {}).theme;
+      var prefs = JSON.parse(localStorage.getItem('bukvoboy:v1:prefs') || '{}') || {};
+      var t = prefs.theme;
       if (t !== 'light' && t !== 'dark') t = matchMedia('(prefers-color-scheme: light)').matches ? 'light' : 'dark';
       document.documentElement.dataset.theme = t;
+      document.documentElement.dataset.palette = prefs.palette || 'classic';
     } catch (e) {}
   </script>
-  <link rel="stylesheet" href="app.css?v=9b17339143">
+  <link rel="stylesheet" href="app.css?v=b2192f7401">
   <title>Буквобой</title>
 </head>
 <body>
   <div id="app"></div>
   <noscript>Для игры нужен включённый JavaScript.</noscript>
-  <script type="module" src="app.js?v=9b17339143"></script>
+  <script type="module" src="app.js?v=b2192f7401"></script>
 </body>
 </html>
