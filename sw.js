@@ -1,7 +1,7 @@
 // Service worker: игра открывается без интернета.
 // Оболочка (страница, скрипт, стили, иконки) кэшируется при установке; файлы словаря — по мере загрузки
 // (кнопка «Скачать словарь для офлайн-игры» в настройках загружает их все сразу).
-const VERSION = '3c54eda5d0';
+const VERSION = 'bf0fcd01c2';
 const SHELL = `bukvoboy-shell-${VERSION}`;
 const DICT = 'bukvoboy-dict';
 const PHOTOS = 'bukvoboy-photos';
